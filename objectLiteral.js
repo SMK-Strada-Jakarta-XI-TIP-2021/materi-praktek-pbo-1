@@ -4,7 +4,7 @@ let buah = {
     nama: "Apel",
     warna: "merah",
     beratGram: 50,
-    bagus: true,
+    kondisiBagus: true,
     harga: 10000,
     cekHarga: function () {
        return this.nama + ' ini ' + 'harganya ' + this.harga + ' dengan berat ' + this.beratGram;
